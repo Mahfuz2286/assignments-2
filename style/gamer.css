@@ -1,0 +1,339 @@
+/* Font styles */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* Shared styles */
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Nav styles */
+.nav-container {
+    display: flex;
+    max-width: 1280px;
+    margin 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 40px 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container h2 {
+    font-size: 40px;
+}
+
+.logo-container img {
+    width: 85px;
+    height: 40px;
+}
+
+.menu-container {
+    display: flex;
+}
+
+.menu-container ul {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    padding: 0 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.first-icon {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 20px 15px;
+    text-decoration: none;
+}
+
+span {
+    color: rgb(255, 183, 0);
+}
+
+
+/* nav style closed */
+/* Header Start */
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 15px;
+    gap: 30px;
+    /* text-align: center; */
+}
+
+.banner-title {
+    padding-bottom: 100px;
+}
+
+.banner-title h1 {
+    font-size: 55px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-title h2 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-title p {
+    color: #534C64;
+    font-size: 20px;
+    text-transform: lowercase;
+    padding: 10px 0;
+}
+
+.btn {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.img-section {
+    max-width: 100%;
+}
+
+/* Header Closed */
+/* Main menu start */
+/* We are gamer */
+.gamer-section {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    padding: 30px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 300px;
+
+}
+
+.gamer-title h1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right;
+    font-size: 48px;
+}
+
+.gamer-title p {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn-1 {
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    color: #FFF;
+    font-size: 20px;
+    padding-top: 60px;
+    padding: 10px 30px;
+}
+
+.gamer-title span1 {
+    color: #534C64;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+/* We are gamer closed */
+/* Online Games Funny Videos */
+.img-4 span2 {
+    color: #8758F1;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.img-4 h1,
+{
+text-align: center;
+}
+
+.img-box-4 {
+    display: flex;
+    border-radius: 26px;
+    padding: 25px;
+    gap: 24px;
+}
+
+/* Play Instantly,No Downloads No Installs. */
+.play-instantly {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    font-size: 28px;
+    justify-content: space-between;
+}
+
+.play-instantly-details {
+    width: 45%;
+    text-align: end;
+    padding-right: 60px;
+}
+
+.play-instantly p {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 40px 0;
+}
+
+.play-instantly-img {
+    width: 45%;
+    position: relative;
+}
+
+.second-img {
+    position: absolute;
+    margin-top: -300px;
+    margin-right: -200px;
+    margin-left: -355px;
+}
+
+/* 1st footer */
+.second-footer-area {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    margin-top: 150px;
+
+}
+
+.second-footer-section {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 50px 120px;
+    display: grid;
+    row-gap: 40px;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.footer-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 8px;
+    border: 2px solid #fff;
+
+}
+
+.footer-box:hover {
+    border: 2px solid #F948B2;
+    color: #8758F1;
+
+}
+
+.third-box {
+    border: 2px solid #F948B2;
+}
+
+/* Footer */
+footer {
+    background: rgba(11, 2, 35, 1);
+    color: #FFF;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer-last {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.footer-item {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 30px 0;
+    font-size: 18px;
+}
+
+.footer-icon {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 30px 0;
+    font-size: 30px;
+}
+
+.privice-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+
+/* Midea section */
+
+@media screen and (max-width:420px) {
+    .menu-container ul{
+          flex-direction: column;
+    }
+}
+@media screen and (max-width: 575px) {
+    .nav-container,
+    .img-box,
+    .play-instantly,
+    .second-footer-area,
+    .footer-last
+    {
+          flex-direction: column;
+          gap: 0px;
+    }
+    .menu-container ul{
+        flex-direction: column;
+        gap: 15px;
+  }
+  /* banner section */
+  .banner-container{
+    flex-direction:column-reverse;
+}
+.banner-img-section{
+   width: 90%;
+}
+.banner-img-section img{
+    max-width: 100%;
+}
+.button{
+    padding-top: 60px;
+    padding: 10px 30px;
+}
